@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,500&display=swap');
+
+body {
+    background-image: url('Optimized-apexbg.jpg');
+    background-size: cover;
+    background-position: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    color: #fff;
+    font-family: 'Kanit', sans-serif;
+}
+
+.box {
+    max-width: 700px;
+    margin: 100px auto 0 auto;
+    background: rgba(0,0,0,0.5);
+    padding: 40px;
+    text-align: center;
+}
+
+input, select {
+    border-radius: 0px !important;
+    height: 50px !important;
+}
+
+input:focus.select:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+input {
+    border-radius: 25px !important;
+    border-radius: 25px !important;
+}
+
+select {
+    border-radius: 25px !important;
+    border-radius: 25px !important;
+    margin-top: 20px;
+}
+
+.platformAvatar {
+    width: 40px;
+}
+
+/* Highlights are this color */
+::-moz-selection {
+    background: #ffb7b7;
+}
+
+.btn {
+    background: linear-gradient(#e66465, #9198e5);
+    color: rgb(248, 232, 232) !important;
+    border-radius: 2em;
+    width: 100%;
+    border: 1px solid;
+    font-size: 20px;
+}
+
+btn-info:hover {
+    background: transparent !important;
+}
+
+.stats {
+    padding: 100 0;
+ 
+}
+
+.stats .row {
+    margin-top: 50px;
+}
+
+.result {
+    background: rgba(0,0,0,0.5);
+    opacity: 100%;
+}
+.stats .stat {
+    background: rgb(150, 149, 149);
+    color: #000;
+    opacity: 90%;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 0 10px;
+}
+
+.stats .stat h6 {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.stats .stat h5 {
+    font: 2rem;
+    font-weight: bold;
+}
+
+.stat img {
+    size: 20px;
+    position: relative;
+}
+
+.stats img {
+    size: 40px;
+}
+
+.minibox {
+    background: rgba(0,0,0,0.5);
+    border: 2px solid rgb(150, 149, 149);
+    text-align: center;
+    margin-top: 400px;
+    justify-content: center;
+}
+
+p {
+    display: flex;
+    font-size: large;
+    text-align: center;
+    justify-content: center;
+}
+
+
+/* iPhone X and Xs Max */
+@media only screen 
+    and (min-device-width: 375px) 
+    and (min-device-height: 812px) 
+    and (-webkit-device-pixel-ratio: 3)
+    and (orientation: portrait) { 
+        body{
+            background-image: url('iPhoneXR.png');
+            background-image: contain no-repeat;
+            background-size: 100%;
+            background-image: no-repeat;
+            background-position: center;
+            justify-content: center;
+            min-height: 100vh;
+            display: flex;
+            color: #fff;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+        }
+            
+
+            .btn {
+                background: linear-gradient(#d34c4c, #696972);
+            }
+
+            .minibox {
+                margin-top: 70px;
+            }
+}
+
+/* iPhone XR / 11 */
+@media only screen 
+    and (min-device-width: 414px) 
+    and (min-device-height: 896px) 
+    and (-webkit-device-pixel-ratio: 2) 
+    and (orientation: portrait) { 
+        body{
+        background-image: url('iPhoneXR.png');
+        background-size: contain no-repeat;
+        background-size: 100%;
+        background-position: center;
+        min-height: 100vh;
+        display: flex;
+        color: #fff;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        }
+
+        .btn {
+            background: linear-gradient(#d34c4c, #696972);
+        }
+
+        .minibox {
+            margin-top: 70px;
+        }
+}
+
